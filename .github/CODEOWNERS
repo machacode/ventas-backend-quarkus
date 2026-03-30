@@ -1,0 +1,15 @@
+# CODEOWNERS - Responsables de revisión por área
+# Formato: <patrón de ruta>  <@usuario o @equipo>
+# GitHub asignará estos revisores automáticamente en los PRs
+
+# Dueño global del repo (revisa TODO lo que no tenga regla específica)
+*                           @TU_USUARIO
+
+# Seguridad y autenticación → revisión obligatoria
+src/main/java/com/ventas/auth/     @TU_USUARIO
+
+# Configuración CI/CD → solo tú puedes aprobar cambios aquí
+.github/                    @TU_USUARIO
+
+# Base de datos / migraciones → crítico, revisión especial
+src/main/resources/db/      @TU_USUARIO
