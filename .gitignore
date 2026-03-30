@@ -25,3 +25,7 @@ replay_pid*
 
 # Variables de entorno locales con secretos
 .env.local
+src/main/resources/privateKey.pem
+
+.idea/
+target/
